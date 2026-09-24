@@ -1,13 +1,264 @@
+---
+layout: base.njk
+title: Startseite
+---
+
 <!DOCTYPE html>
 <html lang="de">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Horner Grundschule Bremen – Informationen, Termine und Aktuelles aus unserer Schule.">
+
   <title>Horner Grundschule Bremen</title>
+
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
-  <h1>Horner Grundschule</h1>
-  <p>Unsere neue Website entsteht gerade.</p>
+
+
+
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero-content">
+
+        <div class="hero-text">
+          <span class="eyebrow">Willkommen an der Horner Grundschule</span>
+
+          <h1>
+            Stell dir vor,<br>
+            es ist Schule,<br>
+            und alle wollen hin!
+          </h1>
+
+          <p>
+            Willkommen an der Horner Grundschule – einer offenen
+            Ganztagsgrundschule im Bremer Stadtteil Horn.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#" class="primary-button">
+              Unsere Schule
+            </a>
+
+            <a href="#aktuelles" class="hero-text-link">
+              Aktuelles ansehen →
+            </a>
+          </div>
+        </div>
+
+
+        <div class="hero-image-wrapper">
+
+          <img src="assets/images/school-building.jpg" alt="Gebäude der Horner Grundschule in Bremen"
+            class="hero-image">
+
+          <div class="hero-badge">
+            <strong>Offene Ganztagsschule</strong>
+            <span>8:00 – 16:00 Uhr</span>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- QUICK LINKS -->
+    <section class="quick-section" aria-label="Schnellzugriff">
+      <div class="container quick-grid">
+
+        <a href="#" class="quick-card">
+          <span class="quick-icon">🍴</span>
+          <div>
+            <strong>Essensplan</strong>
+            <small>Aktueller Speiseplan</small>
+          </div>
+          <span class="arrow">→</span>
+        </a>
+
+        <a href="#termine" class="quick-card">
+          <span class="quick-icon">📅</span>
+          <div>
+            <strong>Termine</strong>
+            <small>Was steht an?</small>
+          </div>
+          <span class="arrow">→</span>
+        </a>
+
+        <a href="#" class="quick-card">
+          <span class="quick-icon">📄</span>
+          <div>
+            <strong>Formulare</strong>
+            <small>Wichtige Downloads</small>
+          </div>
+          <span class="arrow">→</span>
+        </a>
+
+      </div>
+    </section>
+
+
+    <!-- AKTUELLES -->
+    <section class="section" id="aktuelles">
+      <div class="container">
+
+        <div class="section-heading">
+          <div>
+            <span class="eyebrow">Neuigkeiten</span>
+            <h2>Aktuelles aus der Schule</h2>
+          </div>
+
+          <a href="#" class="text-link">Alle Beiträge →</a>
+        </div>
+
+        <div class="news-grid">
+
+          <article class="news-card">
+            <div class="news-image placeholder orange">
+              <span>Horner Grundschule</span>
+            </div>
+
+            <div class="news-content">
+              <time datetime="2026-09-20">20. September 2026</time>
+              <h3>Willkommen im neuen Schuljahr</h3>
+              <p>
+                Wir freuen uns auf ein neues Schuljahr voller
+                gemeinsamer Erlebnisse und spannender Projekte.
+              </p>
+              <a href="#">Weiterlesen →</a>
+            </div>
+          </article>
+
+
+          <article class="news-card">
+            <div class="news-image placeholder yellow">
+              <span>Schulleben</span>
+            </div>
+
+            <div class="news-content">
+              <time datetime="2026-09-15">15. September 2026</time>
+              <h3>Neues aus unserem Schulleben</h3>
+              <p>
+                Entdecken Sie aktuelle Projekte, Aktionen und
+                Veranstaltungen unserer Schülerinnen und Schüler.
+              </p>
+              <a href="#">Weiterlesen →</a>
+            </div>
+          </article>
+
+
+          <article class="news-card">
+            <div class="news-image placeholder soft">
+              <span>Gemeinsam</span>
+            </div>
+
+            <div class="news-content">
+              <time datetime="2026-09-10">10. September 2026</time>
+              <h3>Gemeinsam Schule gestalten</h3>
+              <p>
+                Eltern, Kinder und Kollegium machen unsere
+                Schule zu einem lebendigen Ort.
+              </p>
+              <a href="#">Weiterlesen →</a>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- TERMINE -->
+    <section class="section events-section" id="termine">
+      <div class="container">
+
+        <div class="section-heading">
+          <div>
+            <span class="eyebrow">Kalender</span>
+            <h2>Nächste Termine</h2>
+          </div>
+
+          <a href="#" class="text-link">Alle Termine →</a>
+        </div>
+
+        <div class="events-list">
+
+          <article class="event">
+            <div class="event-date">
+              <strong>08</strong>
+              <span>OKT</span>
+            </div>
+
+            <div class="event-info">
+              <h3>Elternbeiratssitzung</h3>
+              <p>18:30 Uhr · Horner Grundschule</p>
+            </div>
+
+            <span class="event-arrow">→</span>
+          </article>
+
+
+          <article class="event">
+            <div class="event-date">
+              <strong>12</strong>
+              <span>OKT</span>
+            </div>
+
+            <div class="event-info">
+              <h3>Schulveranstaltung</h3>
+              <p>Weitere Informationen folgen</p>
+            </div>
+
+            <span class="event-arrow">→</span>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ABOUT -->
+    <section class="about-section">
+      <div class="container about-grid">
+
+        <div>
+          <span class="eyebrow">Unsere Schule</span>
+          <h2>Ein Ort für Kinder.</h2>
+
+          <p>
+            An der Horner Grundschule lernen und leben Kinder
+            gemeinsam in einer vielfältigen Schulgemeinschaft.
+          </p>
+
+          <a href="#" class="secondary-button">
+            Unsere Schule kennenlernen
+          </a>
+        </div>
+
+        <div class="quote-card">
+          <p>„Stell dir vor, es ist Schule, und alle wollen hin!“</p>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+
+
+
+
+  <script src="assets/js/main.js"></script>
+
 </body>
+
 </html>
